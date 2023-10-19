@@ -61,7 +61,9 @@ int main()
 AND = && = if both the operators are non-zero , then the condition is true.
 listen, i know the conditions of logical operators, just wrote an example for remembering.
 OR = ||
-NOT = !*/
+NOT = !
+XOR = ^
+*/
 /*
 #include <stdio.h>
 int main()
@@ -70,14 +72,12 @@ int main()
     a = 7;
     b = 34;
 
-    printf("a + b = %d\n", a&&b);
-    printf("a - b = %d\n", a-b);
-    printf("a * b = %d\n", a*b);
-    printf("a / b = %d\n", a/b);
+    printf("a && b = %d\n", a && b);
 
     return 0;
 }
 */
+
 
 // FIVE
 // OR Operator
@@ -89,7 +89,7 @@ int main()
     a = 0;
     b = 65;
 
-    printf("a + b = %d\n", a||b);
+    printf("a || b = %d\n", a||b);
 
     return 0;
 }
@@ -97,6 +97,7 @@ int main()
 
 // SIX
 // NOT Operator
+/*
 #include <stdio.h>
 int main()
 {
@@ -104,7 +105,41 @@ int main()
     a = 6;
     b = 6;
 
-    printf("a + b = %d\n", !b);
+    printf("a || b = %d\n", a||b);
 
     return 0;
 }
+*/
+
+// SEVEN
+// NOT  Operator #concept
+/*
+#include <stdio.h>
+int main()
+{
+    int a, b;
+    a = 6;
+    b = 9;
+
+    printf("a || b = %d\n", !b);
+
+    return 0;
+}
+*/
+
+// EIGHT
+// Bitwise Operators
+/*
+#include <stdio.h>
+int main()
+{
+    int a, b;
+    a = 2;
+    b = 3;
+
+    printf("a || b = %d\n", a&b);
+
+    return 0;
+}
+*/
+
