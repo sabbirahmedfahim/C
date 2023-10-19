@@ -2,7 +2,7 @@
 
 int main()
 {
-   printf("Bismillah\n");
+   printf("Bismillahir Rahmanir Rahim\n");
 
    return 0;
 }
