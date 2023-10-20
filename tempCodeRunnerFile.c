@@ -1,1 +1,2 @@
-ur age\n", age);
+ is 3\n");
+    switch (marks)
