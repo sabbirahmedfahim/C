@@ -1,6 +1,6 @@
 // ONE
 // i++ means i= i+1
-/*
+
 #include <stdio.h>
 int main()
 {
@@ -12,7 +12,7 @@ int main()
 
     return 0;
     }
-*/
+
 
 // TWO
 // there is a silly difference between TWO and THREE. execute codes to understand fully
@@ -66,7 +66,7 @@ int main()
 */
 
 // FIVE
-
+/*
 #include <stdio.h>
 int main()
 {
@@ -80,3 +80,4 @@ int main()
     return 0;
 
 }
+*/
