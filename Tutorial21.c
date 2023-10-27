@@ -33,4 +33,4 @@ int main()
 The expression `number * factorial(number - 1)` is a recursive call to the `factorial` function. It calculates the factorial of a number by multiplying the current number (`number`) by the factorial of the previous number (`number - 1`). 
 
 In simpler terms, it breaks down the problem of calculating the factorial of a number into smaller subproblems. It calculates the factorial by repeatedly multiplying the current number by the factorial of a smaller number until it reaches the base case where the factorial of 0 or 1 is defined as 1. This is a fundamental concept in recursive algorithms, where a problem is divided into smaller, similar problems until a base case is reached, and then the results are combined to solve the original problem.
-/
+*/
