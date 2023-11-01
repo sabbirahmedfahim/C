@@ -1,5 +1,5 @@
 // ONE
-// do while loop executes at least once. that  means it will executes at least once than it check the conditions
+// do while loop executes at least once. that  means it will executes at least once then it check the conditions
 /*
 #include <stdio.h>
 
