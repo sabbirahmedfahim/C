@@ -38,22 +38,22 @@ int main()
 
 // THREE
 /*here a==b is 0 because a is not equal to b, so its says that is false(0)*/
-/*
-#include <stdio.h>
-int main()
-{
-    int a, b;
-    a = 34;
-    b = 6;
 
-    printf("a + b = %d\n", a==b);
-    printf("a - b = %d\n", a-b);
-    printf("a * b = %d\n", a*b);
-    printf("a / b = %d\n", a/b);
+// #include <stdio.h>
+// int main()
+// {
+//     int a, b;
+//     a = 34;
+//     b = 6;
 
-    return 0;
-}
-*/
+//     printf("a + b = %d\n", a==b);
+//     printf("a - b = %d\n", a-b);
+//     printf("a * b = %d\n", a*b);
+//     printf("a / b = %d\n", a/b);
+
+//     return 0;
+// }
+
 
 
 // FOUR
@@ -64,82 +64,69 @@ OR = ||
 NOT = !
 XOR = ^
 */
-/*
-#include <stdio.h>
-int main()
-{
-    int a, b;
-    a = 7;
-    b = 34;
 
-    printf("a && b = %d\n", a && b);
+// #include <stdio.h>
+// int main()
+// {
+//     int a, b;
+//     a = 7;
+//     b = 46;
 
-    return 0;
-}
-*/
+//     printf("a && b = %d\n", a && b);
+
+//     return 0;
+// }
+
 
 
 // FIVE
 // OR Operator
-/*
-#include <stdio.h>
-int main()
-{
-    int a, b;
-    a = 0;
-    b = 65;
 
-    printf("a || b = %d\n", a||b);
+// #include <stdio.h>
+// int main()
+// {
+//     int a, b;
+//     a = 0;
+//     b = 65;
 
-    return 0;
-}
-*/
+//     printf("a || b = %d\n", a||b);
 
-// SIX
-// NOT Operator
-/*
-#include <stdio.h>
-int main()
-{
-    int a, b;
-    a = 6;
-    b = 6;
+//     return 0;
+// }
 
-    printf("a || b = %d\n", a||b);
 
-    return 0;
-}
-*/
+//SIX (empty)
+
 
 // SEVEN
 // NOT  Operator #concept
-/*
-#include <stdio.h>
-int main()
-{
-    int a, b;
-    a = 6;
-    b = 9;
 
-    printf("a || b = %d\n", !b);
+// #include <stdio.h>
+// int main()
+// {
+//     int a, b;
+//     a = 6;
+//     b = 0;
 
-    return 0;
-}
-*/
+//     printf("a || b = %d\n", !b);
+
+//     return 0;
+// }
+
 
 // EIGHT
-// Bitwise Operators
-/*
-#include <stdio.h>
-int main()
-{
-    int a, b;
-    a = 2;
-    b = 3;
+// Bitwise Operators DID NOT UNDERSTAND
 
-    printf("a || b = %d\n", a&b);
+// #include <stdio.h>
+// int main()
+// {
+//     int a, b;
+//     a = 2;
+//     b = 3;
 
-    return 0;
-}
-*/
+//     printf("a || b = %d\n", a&b);
+
+//     return 0;
+// }
+
 
