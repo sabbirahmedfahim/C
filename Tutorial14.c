@@ -7,7 +7,7 @@ int main()
     int i = 0;
     while (i<54)
     {
-        printf("%d\n", i);
+        printf("%d ", i);
         i = i + 1;
     }
      
