@@ -259,18 +259,104 @@
 // }
 
 //TWENTY
-#include <stdio.h>
+//string
+// #include <stdio.h>
 
-int main()
-{
-    // int something[] = "Man is Mortal, Women?";
-    char something[] = "Man is Mortal, Women?";
-    for (int i = 0; i < 8; i++)
-    {
-        printf("%c", something[i]);
-    }
+// int main()
+// {
+//     // int something[] = "Man is Mortal, Women?";
+//     char something[] = "Man is Mortal, Women?";
+//     for (int i = 0; i < 8; i++)
+//     {
+//         printf("%c", something[i]);
+//     }
     
 
-   return 0;
+//    return 0;
+// }
+
+//TWENTY  ONE
+// Get the value of the first element in myNumbers
+
+// #include <stdio.h>
+
+// int main()
+// {
+//    int myNumbers[4] = {25, 50, 75, 100};
+// //    printf("%d", *(myNumbers + 2));
+//    printf("%d", *myNumbers);
+
+//    return 0;
+// }
+
+//TWENTY TWO
+// #include <stdio.h>
+
+// int main()
+// {
+//    int myNumbers[4] = {42, 4, 53, 5};
+//    int *ptr = myNumbers;
+
+//    for (int i = 0; i < 4; i++)
+//    {
+//     printf("%d ", *(ptr+i));
+//    }
+   
+//    return 0;
+// }
+
+//TWENTY THREE
+//Creating function
+// #include <stdio.h>
+// void myFunctionhh() {
+//         printf("My name is function");
+//     }
+// int main()
+// {
+//     myFunctionhh();
+    
+
+//    return 0;
+// }
+
+// TWENTY FOUR
+//Parameters and Arguments
+// #include <stdio.h>
+// void myNameAndRoll(char name[], int roll) {
+//         // printf("My name is %c, roll %d", name, roll);
+//         printf("My name is %s, roll %d\n", name, roll); // use \n here
+//     }
+// int main()
+// {
+//     // myNameAndRoll(Sabbir, 018);
+//     myNameAndRoll("Sabbir", 234);
+//     myNameAndRoll("Safwan", 231);
+    
+
+//    return 0;
+// }
+
+// TWENTY FIVE
+// Return Values
+// #include <stdio.h>
+// // void myTotalBill(int price) { //wrong way
+// int myTotalBill(int price) {
+//     return 8 + price;
+// }
+// int main()
+// {
+//     printf("Total pay: %d", myTotalBill(85));
+
+//    return 0;
+// }
+
+//26
+#include <math.h>
+
+int main() {
+  printf("%1.0f", sqrt(16));
+  return 0;
 }
+
+
 
