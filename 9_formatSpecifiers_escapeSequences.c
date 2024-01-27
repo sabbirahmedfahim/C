@@ -36,3 +36,13 @@ printf("This is a good boy %a.bf", var); will print var with b decimal points in
 
 //     return 0;
 //     // }
+#include <stdio.h>
+
+int main()
+{
+   printf("Bismillah\n");
+
+   return 0;
+}
+
+
