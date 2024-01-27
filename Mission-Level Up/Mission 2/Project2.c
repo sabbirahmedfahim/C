@@ -8,13 +8,14 @@ entry, reset the attempts to 0 and confirm that it's a valid input. ⭐*/
 
 #include <stdio.h>
 int main() {
-    const int password = 4837;
+    const int password = 4837; //we also can store passwords from users
     int userInput;
     one: 
+    printf("enter your password: \n");
     scanf("%d", &userInput);
     if (password == userInput)
     {
-        printf("Okey\n");
+        printf("For safety Please Re-");
     }
     else
     {
@@ -24,7 +25,7 @@ int main() {
     scanf("%d", &userInput);
     if (password == userInput)
     {
-        printf("Okey\n");
+        printf("For safety Please Re-");
         goto one;
     }
     else
@@ -35,7 +36,7 @@ int main() {
      scanf("%d", &userInput);
     if (password == userInput)
     {
-        printf("Okey");
+        printf("Okey. For safety Please Re-");
         goto one;
     }
     else
