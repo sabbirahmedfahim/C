@@ -42,7 +42,7 @@
 //    return 0;
 // }
 
-//(1,2) MidTerm Q. Solve
+//(1,2) MidTerm Q. Solved
 // #include <stdio.h>
 
 // int main()
