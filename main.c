@@ -1,9 +1,9 @@
+
 #include <stdio.h>
 
 int main()
 {
-   printf("Bismillah\n");
-
+   printf("Bismillah");
    return 0;
 }
 
