@@ -1,9 +1,18 @@
 
-#include <stdio.h>
+// #include <stdio.h>
 
+// int main()
+// {
+//    // printf("Bismillah");
+//    return 0;
+// }
+
+#include <stdio.h>
 int main()
 {
-   printf("Bismillah");
-   return 0;
+char str[20];
+gets(str);
+printf("%s", str);
+return 0;
 }
 

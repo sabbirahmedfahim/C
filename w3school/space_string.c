@@ -1,0 +1,9 @@
+// Taking String input with space in C 
+#include <stdio.h>
+int main()
+{
+char str[20];
+gets(str);
+printf("%s", str);
+return 0;
+}
