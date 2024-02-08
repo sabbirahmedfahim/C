@@ -1,4 +1,6 @@
 // Input a string that return you the reverse version
+//It doesn't count multiple words as if we were entering a single-word input.
+//  This issue could be resolved.
 #include <stdio.h>
 #include <string.h>
 int main() {

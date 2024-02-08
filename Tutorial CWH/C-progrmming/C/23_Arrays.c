@@ -18,7 +18,7 @@ data_type name[rows][columns]; //for 2-d arrays 0
 
 // ONE
 //Its better if you understand first TWO and THREE. then come here
-/*
+
 #include <stdio.h>
 
 int main()
@@ -35,47 +35,47 @@ int main()
 
    return 0;
 }
-*/
+
 
 // TWO
-/*
-#include <stdio.h>
 
-int main()
-{
-   int marks[4] = {45, 234, 2, 3};
-   // [4] indicates there are 4 column. but it is not nesserey to write the number when it is only row or column.
+// #include <stdio.h>
 
-   for (int i = 0; i < 4; i++) //its counts o to 3 so i<4
-   {
-      printf("Enter the value of %d element of the array is %d\n", i, marks[i]);
+// int main()
+// {
+//    int marks[4] = {45, 234, 2, 3};
+//    // [4] indicates there are 4 column. but it is not nesserey to write the number when it is only row or column.
 
-   }
+//    for (int i = 0; i < 4; i++) //its counts o to 3 as if i<4
+//    {
+//       printf("Enter the value of %d element of the array is %d\n", i, marks[i]);
+
+//    }
 
 
-   return 0;
-}
-*/
+//    return 0;
+// }
+
 
 // THREE
 // 2D array
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-   int marks[2][4] = {{45, 234, 2, 3},
-                        {3, 2, 3, 3}};
-   // The output will be very interesting. It counts matrices starting from 0, not 1.
+// int main()
+// {
+//    int marks[2][4] = {{45, 234, 2, 3},
+//                         {3, 2, 3, 3}};
+//    // The output will be very interesting. It counts matrices starting from 0, not 1.
 
-   for (int i = 0; i < 2; i++)
-   {
-      for (int j = 0; j < 4; j++)
-      {
-         printf("%d ", marks[i][j]); 
-         // The marks[i][j] part accesses the element in the 2D array at the current row i and column j.
-      }
-      printf("\n");
-   }
-   return 0;
-}
+//    for (int i = 0; i < 2; i++)
+//    {
+//       for (int j = 0; j < 4; j++)
+//       {
+//          printf("%d ", marks[i][j]); 
+//          // The marks[i][j] part accesses the element in the 2D array at the current row i and column j.
+//       }
+//       printf("\n");
+//    }
+//    return 0;
+// }

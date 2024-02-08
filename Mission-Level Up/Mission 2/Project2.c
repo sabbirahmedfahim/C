@@ -5,17 +5,21 @@ for each incorrect attempt, it will display an error message
 and show the remaining attempts. If the attempts reach or exceed 3,
 it will notify you that the account is blocked. On a valid password
 entry, reset the attempts to 0 and confirm that it's a valid input. ⭐*/
+// Done
 
 #include <stdio.h>
 int main() {
-    const int password = 4837; //we also can store passwords from users
+    int password;
+    printf("Create your bKash password using numbers: ");
+    scanf("%d", &password);
     int userInput;
     one: 
     printf("enter your password: \n");
     scanf("%d", &userInput);
     if (password == userInput)
     {
-        printf("For safety Please Re-");
+        printf("Your account has been created!");
+        goto four; //add a break statement, it takes input still
     }
     else
     {
@@ -43,8 +47,7 @@ int main() {
     {
         printf("Your Account Has Been Blocked");
     }
-
-    
+    four: printf("\n");
     return 0;
     
 

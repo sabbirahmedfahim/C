@@ -1,5 +1,6 @@
 /*Build a program to calculate your BMI and
  provide a message about your fitness level. ⭐*/
+//  Done
  #include <stdio.h>
  int main() {
     float BMI;
@@ -11,7 +12,7 @@
     }
     else if (BMI>=18.5 && BMI<=24.9)
     {
-        printf("CongRats! Your BMI is Normal");
+        printf("Congrats! Your BMI is Normal");
     }
     else if (BMI>=25 && BMI<=29.9)
     {
