@@ -1,6 +1,5 @@
 //taking input from the user and store it in an array element.
-// #include <stdio.h>
-
+#include <stdio.h>
 int main() {
     int n; // size of the array
     printf("Enter the size of the array: ");
@@ -25,18 +24,18 @@ int main() {
 }
 
 //array basics— getting length, sum, avg
-#include <stdio.h>
-int main() {
-    int marks[] = {38, 34, 84, 54, 50, 55, 70, 84};
-    float avg, sum = 0;
-    int  length = sizeof(marks) / sizeof(marks[0]); //getting the  length of  the  array
-    //like len of list in python
-    for (int i = 0; i < length; i++)
-    {
-        sum = sum + marks[i];
-    }
-    avg = sum/length;
-    printf("The average marks is %.2f", avg);
+// #include <stdio.h>
+// int main() {
+//     int marks[] = {38, 34, 84, 54, 50, 55, 70, 84};
+//     float avg, sum = 0;
+//     int  length = sizeof(marks) / sizeof(marks[0]); //getting the  length of  the  array
+//     //like len of list in python
+//     for (int i = 0; i < length; i++)
+//     {
+//         sum = sum + marks[i];
+//     }
+//     avg = sum/length;
+//     printf("The average marks is %.2f", avg);
 
-    return 0;
-}
+//     return 0;
+// }
