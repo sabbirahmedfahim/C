@@ -1,3 +1,4 @@
+// Alhamdulillah 
 // failed
 // ONE
 // 5 12 19 26 =<30
@@ -43,6 +44,7 @@
 // }
 
 // TWO
+// failed
 // #include <stdio.h>
 
 // int main()
@@ -81,83 +83,42 @@
 //    return 0;
 // }
 
-// THREE (goto FOUR for clear image)
 
-// #include <stdio.h>
-
-// int main()
-// {
-// //    1.SUN 2.MON 3.TUE 4.WED 5.THU 6.FRI(1)** 7.SAT(2 no need)
-//    int N, D; //N=month, D=date 
-//    scanf("%d %d", &N, &D);
-//    int monthToDays = 30*N;
-//    int daysCount = monthToDays - D -1; //1 30: 27
-//    int fullWeek = (daysCount/7)+1; // 3
-//    int fractionOfWeek = daysCount%7; //1
-//    int holyDaysOfFullWeek = 2*fullWeek; // 8
-//    int fractionCount; //
-//    printf("full week %d fraction week %d\n", fullWeek, fractionOfWeek);
-//    printf("integer holydays %d\n", holyDaysOfFullWeek);
-
-//    if (fractionOfWeek==0)
-//    {
-//     fractionCount = 0;
-//     printf("%d\n", fractionCount);
-//    } else if (fractionOfWeek==1) //Now, I know that typing 'elif' will be converted to 'else if.'
-//    {
-//     fractionCount = 1;
-//     printf("%d\n", fractionCount);
-//    } else if (fractionOfWeek==6)
-//    {
-//     fractionCount = 1;
-//     printf("%d\n", fractionCount);
-//    } else if (fractionOfWeek>=1 && fractionOfWeek<=7)
-//    {
-//     fractionCount = 0;
-//     printf("%d\n", fractionCount);
-//    }
-   
-   
-   
-//    printf("ANSWER: %d", holyDaysOfFullWeek+fractionCount);
-
-//    return 0;
-// } 
-
-
-// FOUR
-
+// THREE (83% accurate) goto FOUR :D
+/*the problem here, we did not thought(consider) what if(would happen) 
+(if)saturday is the first day of the first month*/
 #include <stdio.h>
 
 int main()
 {
    int N, D;  
-   scanf("%d %d", &N, &D);
-   int monthToDays = 30*N;
-   int daysCount = monthToDays -D; 
-   int fullWeek = (daysCount/7)+1; 
-   int fractionOfWeek = daysCount%7; 
+   scanf("%d %d", &N, &D); 
+   int monthToDays = 30*N; 
+   int daysCount = monthToDays -D -1 +7;
+   int fullWeek = daysCount/7;
    int holyDaysOfFullWeek;
-   int fractionCount = 0;
-   if (N<=50 && D<=7)
+   if (D<7)
    {
-     holyDaysOfFullWeek = 2*fullWeek; 
- 
-    switch (fractionOfWeek)
-    {
-    case 7:
-        fractionCount = 1;
-        break;
-    default: fractionCount = 0;
-        break;
-    }
+    holyDaysOfFullWeek = 2*fullWeek;
+   } else if (D==7)
+   {
+    holyDaysOfFullWeek = (2*fullWeek)+1;
    }
    
-  
+   int remainderOfWeek = daysCount%7; 
+   int fractionCount = 0;
 
-   
+    switch (remainderOfWeek)
+    {
+    case 6:
+        fractionCount = 1;
+        break;   
+    default:
+    fractionCount = 0;
+        break;
+    }
    printf("%d\n", holyDaysOfFullWeek+fractionCount);
-
 
    return 0;
 } 
+

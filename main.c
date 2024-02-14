@@ -4,6 +4,6 @@
 int main()
 {
    printf("Bismillah");
-
+   
    return 0;
 }
