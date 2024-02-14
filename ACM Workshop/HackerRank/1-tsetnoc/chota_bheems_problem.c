@@ -1,5 +1,4 @@
-
-not finished yet
+// remember that year matterers for the second month (february)
 #include <stdio.h>
 
 int main()
@@ -14,14 +13,13 @@ if (month>=1 && month<=12 && year>=1 && year<=5000)
          printf("31");
         break;
       case 2:
-      if (year && year%100!=0 || year%100==0 && year%400==0)
-       {
+      if (year%4==0 && year%100!=0 || year%100==0 && year%400==0)
+      {
         printf("29");
       } else
-        {
-         printf("28");
-        }
-   }
+      {
+        printf("28");
+      }
         break;
       case 3:
          printf("31");
