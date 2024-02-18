@@ -11,7 +11,6 @@ if (N>=100 && N<=999)
     while (N!=0)
     {
         int remainder = N%10; //multiple integer doesn't matter. always %10 :p
-        // int  reverse = reverse*10 + remainder;  //incorrect code
         reverse = reverse*10 + remainder;  
         N = N/10; 
     }

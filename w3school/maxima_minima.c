@@ -19,7 +19,7 @@ int main()
         } 
     } printf("\nYoungest: %d\n", Youngest);  
 
-      int Oldest = Ages[0];
+    int Oldest = Ages[0];
     for (int i = 0; i < 4; i++)
     {
         if (Oldest < Ages[i])

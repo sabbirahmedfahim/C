@@ -84,9 +84,9 @@
 // }
 
 
-// THREE (83% accurate) goto FOUR :D
-/*the problem here, we did not thought(consider) what if(would happen) 
-(if)saturday is the first day of the first month*/
+// THREE 
+/*the problem was, we did not thought(consider) what if(would happen) 
+(if)saturday is the first day of the first month. Now fixed*/
 #include <stdio.h>
 
 int main()

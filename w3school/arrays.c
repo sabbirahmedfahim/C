@@ -1,3 +1,20 @@
+// for copy paste 
+#include <stdio.h>
+int main() {
+    int n;
+    scanf("%d", &n);
+    int myArray[n]; 
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &myArray[i]); 
+    }
+    for (int i = 0; i < n; i++) {
+        printf("%d ", myArray[i]); 
+    }
+    return 0;
+}
+
+// explanation 
 //taking input from the user and store it in an array element.
 #include <stdio.h>
 int main() {
