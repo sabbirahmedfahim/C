@@ -1,4 +1,4 @@
-
+// dunno what is  my mistake
 #include <stdio.h>
 
 int main()
@@ -9,12 +9,12 @@ int main()
    {
     int a;
     scanf("%d", &a);
-    int factorial = 1;
-    for (int i = 1; i <= a; i++)
+    double factorial = 1;
+    for (int j = 1; j <= a; j++)
    {
-    factorial = factorial*i;
+    factorial = factorial*(double)j;
    }
-   printf("%d\n", factorial);
+   printf("%.0Lf\n", factorial);
    }
    
    
