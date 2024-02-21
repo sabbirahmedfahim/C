@@ -1,0 +1,1 @@
+https://www.hackerrank.com/contests/beginner-workshop-contest-2/challenges
