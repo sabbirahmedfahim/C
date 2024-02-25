@@ -1,5 +1,4 @@
-// why error?  
-
+// Done 
 #include <stdio.h>
 
 int main()
@@ -11,12 +10,12 @@ int main()
 
     for (int j = 1; j <= n-i; j++)
         {
-            printf(" ");
+            printf("  "); //two space
         }
 
     for (int j = 1; j <=i; j++)
     {
-        printf("*");
+        printf("* ");
     }
     
     printf("\n");
@@ -25,5 +24,6 @@ int main()
    
    return 0;
 }
+
 
 
