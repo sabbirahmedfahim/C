@@ -578,6 +578,63 @@
 
 // Tutorial 5.158 : Pattern Part-17
 // RECTANGLE
+// #include <stdio.h>
+
+// int main()
+// {
+//     int n;
+//     printf("Enter N= ");
+//     scanf("%d", &n);
+
+//     for (int row = 1; row <= n; row++)
+//     {
+//         for (int col = 1; col <= n; col++)
+//         {
+//             if (row == 1 || row == n || col == 1 || col == n)
+//             {
+//                 printf("*");
+//             }
+//             else
+//             {
+//                 printf(" ");
+//             }
+//         } printf("\n");
+//     }
+
+//     return 0;
+// }
+
+// Tutorial 5.159 : Pattern Part-18
+// TRIANGLE SHAPE 
+// #include <stdio.h>
+
+// int main()
+// {
+//     int n;
+//     printf("Enter N= ");
+//     scanf("%d", &n);
+
+//     for (int row = 1; row <= n; row++)
+//     {
+//         for (int col = 1; col <= n; col++)
+//         {
+//             if (row == col || col == 1 || row == n)
+//             {
+//                 printf("*");
+//             }
+//             else
+//             {
+//                 printf(" ");
+//             }
+//         } printf("\n");
+//     }
+
+//     return 0;
+// }
+
+
+// Tutorial 5.160 : Pattern Part-19
+// X-STAR PATTERN
 #include <stdio.h>
 
 int main()
@@ -590,7 +647,7 @@ int main()
     {
         for (int col = 1; col <= n; col++)
         {
-            if (row == 1 || row == n || col == 1 || col == n)
+            if (row%col==1 || col%row==1)
             {
                 printf("*");
             }
@@ -603,5 +660,3 @@ int main()
 
     return 0;
 }
-
-// Tutorial 5.159 : Pattern Part-18
