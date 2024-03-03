@@ -1,3 +1,4 @@
+// Done
 #include <stdio.h>
 
 int main()
@@ -5,15 +6,16 @@ int main()
     int num;
     scanf("%d", &num);
     int MyArray[num];
-    for (int i = 0; i < num; i++)
+    // remember the format specifier
+    for (long long int i = 0; i < num; i++)
     {
-        scanf("%d", &MyArray[i]);
+        scanf("%lld", &MyArray[i]);
     }
-    int sum = 0;
-    for (int i = 0; i < num; i++)
+    long long int sum = 0;
+    for (long long int i = 0; i < num; i++)
     {
         sum = sum + MyArray[i];
     }
-    printf("%d", sum);
+    printf("%lld", sum);
     return 0;
 }

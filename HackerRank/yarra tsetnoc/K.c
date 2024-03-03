@@ -9,16 +9,23 @@ int main()
     {
         scanf("%d", &MyArray[i]);
     }
-    int j = 0;
-    for (int i = 0; i < n; i++)
-    {
-        j = n-1;
-        for (j = n; j <=0; j++)
-        {
-            /* code */
-        }
-        
-    }
+    int 
+    // for (int j = 0; j < n; j++)
+    // {
+    //     printf("%d ", MyArray[j]);
+    // }
+    // for (int k = n-1; k >=0 ; k--)
+    // {
+    //     printf("%d ", MyArray[k]);
+    // }
+    // if (MyArray[j]==MyArray[k])
+    // {
+    //     printf("Yes\n");
+    // } else
+    // {
+    //     printf("No\n");
+    // }
+    
     
 
     return 0;
