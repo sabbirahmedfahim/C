@@ -635,28 +635,28 @@
 
 // Tutorial 5.160 : Pattern Part-19
 // X-STAR PATTERN
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-    int n;
-    printf("Enter N= ");
-    scanf("%d", &n);
+// int main()
+// {
+//     int n;
+//     printf("Enter N= ");
+//     scanf("%d", &n);
 
-    for (int row = 1; row <= n; row++)
-    {
-        for (int col = 1; col <= n; col++)
-        {
-            if (row%col==1 || col%row==1)
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
-        } printf("\n");
-    }
+//     for (int row = 1; row <= n; row++)
+//     {
+//         for (int col = 1; col <= n; col++)
+//         {
+//             if (row%col==1 || col%row==1)
+//             {
+//                 printf("*");
+//             }
+//             else
+//             {
+//                 printf(" ");
+//             }
+//         } printf("\n");
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
