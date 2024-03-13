@@ -41,19 +41,34 @@
 // THREE
 /*In Visual Studio Code (VS Code), you can use the "Format Document" feature to automatically format your code according to the coding style or rules of the programming language you are working with. This helps ensure that your code is consistent and easy to read.*/
 
-#include <stdio.h>
+// #include <stdio.h>
 
+// int main()
+// {
+//     int num, index = 0;
+//     printf("Enter a number\n");
+//     scanf("%d", &num);
+
+//     do
+//     {
+//         printf("%d\n ", index + 1);
+//         index = index + 1;
+//     } while (index < num);
+
+//     return 0;
+// }
+
+// FOUR
+#include <stdio.h>
 int main()
 {
-    int num, index = 0;
-    printf("Enter a number\n");
+    int num, index = 3;
     scanf("%d", &num);
-
     do
     {
-        printf("%d\n ", index + 1);
-        index = index + 1;
-    } while (index < num);
+        printf("%d ", index);
+        index++;
+    } while (index <= num);
 
     return 0;
 }

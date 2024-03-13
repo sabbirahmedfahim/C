@@ -141,19 +141,19 @@
 
 //(1,2) MidTerm Q. Solve
 //Pirnt all the multiples of 11 from 13 to 1000
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-    int a = 11;
-   for (int i = 13; i < 1001; i+=1)
-   {
-    printf("%d\n", i*a);
-   }
+// int main()
+// {
+//     int a = 11;
+//    for (int i = 13; i < 1001; i+=1)
+//    {
+//     printf("%d\n", i*a);
+//    }
    
 
-   return 0;
-}
+//    return 0;
+// }
 
 
 
