@@ -1,4 +1,4 @@
-// failed
+//Done
 // the proper divisors of 12 are 1, 2, 3, 4, and 6 (excluding 12).
 
 // ONE (wrong code, goto TWO for the answer)
