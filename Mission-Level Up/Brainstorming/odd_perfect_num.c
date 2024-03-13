@@ -1,17 +1,17 @@
-// let's run a code up and until that will find a ODD PERFECT number and stop
+// Let's run a code that will find an ODD PERFECT number and stop once it does.
 
 #include <stdio.h>
 
 int main()
 {
-    int n = 1;
+    long long int n = 1;
 
-    int finalOutput = 0;
-    int sumOfDivisors = 0;
+    long long int finalOutput = 0;
+    long long int sumOfDivisors = 0;
 
     while (n!=0)
     {
-        for (int i = 1; i < n; i++)
+        for (long long int i = 1; i < n; i++)
     {
         if (n % i == 0)
         {
@@ -22,12 +22,13 @@ int main()
 
     if (finalOutput == n)
     {
-        printf("Perfect Number");
+        printf("\n");
+        printf("%lld is a Perfect Number", n);
         break;
     } 
     else
     {
-        printf("Not a Perfect Number");
+        printf("%lld", n);
     }
     n+=2;
     }
