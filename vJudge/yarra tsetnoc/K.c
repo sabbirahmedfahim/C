@@ -1,6 +1,7 @@
+// Done
 #include <stdio.h>
 
- int main()
+int main()
 {
     int n;
     scanf("%d", &n);
@@ -9,24 +10,24 @@
     {
         scanf("%d", &MyArray[i]);
     }
-    
-    for (int j = 0; j < n; j++)
+
+    int flag;
+    for (int i = 0, j = n - 1; i < n; i++, j--)
     {
-        printf("%d ", MyArray[j]);
+        flag = 0;
+        if (MyArray[i] != MyArray[j])
+        {
+            flag = 1;
+        }
     }
-    for (int k = n-1; k >=0 ; k--)
+    if (flag == 0)
     {
-        printf("%d ", MyArray[k]);
+        printf("Yes");
     }
-    if (MyArray[j]==MyArray[k])
+    else
     {
-        printf("Yes\n");
-    } else
-    {
-        printf("No\n");
+        printf("No");
     }
-    
-    
 
     return 0;
 }
