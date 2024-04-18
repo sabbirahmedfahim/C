@@ -34,7 +34,7 @@ int main()
 
     return 0;
 }
-*/
+
 
 // THREE
 /*here a==b is 0 because a is not equal to b, so its says that is false(0)*/
