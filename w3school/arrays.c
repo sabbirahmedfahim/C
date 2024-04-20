@@ -56,3 +56,13 @@ int main() {
 
 //     return 0;
 // }
+
+// accessing elements of array using pointer
+ #include<stdio.h>
+ int main()
+ {
+    int arr[] = {34, 5, 64};
+    printf("%d", *(arr+1));
+    
+    return 0;
+ }
