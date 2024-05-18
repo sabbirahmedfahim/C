@@ -1,1 +1,1 @@
-- [HackerRank Contest](https://www.hackerrank.com/contests/intra-ieee-programming-contestcategory-2/challenges)
+- [Intra IEEE Programming Contest: Junior](https://www.hackerrank.com/contests/intra-ieee-programming-contestcategory-2/challenges)
